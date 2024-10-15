@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Details de l'auteur </title>
+</head>
+<body>
+<h1> Details de l'auteur : </h1>
+<p> Nom : {{ author.username}} </p>
+<p> Email : {{ author.email}} </p>
+<p> Nombre de livres : {{ author.nb_books}} </p>
+<td> <a href="{{path('app_listAuthors',{'id':author.id})}}" > liste des auteurs </a> </td>
+
+</body>
+
+</html>
